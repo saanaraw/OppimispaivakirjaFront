@@ -1,0 +1,50 @@
+.App{
+  /*align-items: center;*/
+  background: linear-gradient(to left, #ed4264, #ffedbc);
+}
+
+.sidebar {
+  alignment: left;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px grey;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: ghostwhite;
+  float: left;
+}
+
+.sidebar ul{
+
+  list-style: none;
+  padding: 0;
+  width: 25vw;
+
+}
+
+.sidebar ul li a{
+
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.sidebar ul li a:hover{
+
+  background-color: #FFBAC3;
+
+}
+
+.main {
+  text-align: left;
+  max-width: 100%;
+  align-items: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
